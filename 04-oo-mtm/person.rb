@@ -46,4 +46,16 @@ class Person
     end
     counts
   end
+
+  def rides
+    Ride.all.select { |ride| ride.passenger == self }
+  end
+
+  def total_distance
+    rides.map { |ride| ride.distance }.sum
+  end
+
+  def taxis
+    rides.map { |ride| ride.taxi }.uniq
+  end
 end

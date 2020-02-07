@@ -12,10 +12,3 @@ desc "Start our app console"
 task :console do
   Pry.start
 end
-
-snake_emoji = "🐍"
-
-desc "output a SNAKE emoji"
-task :snake do
-  puts snake_emoji
-end

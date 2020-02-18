@@ -1,0 +1,10 @@
+<h1>Editing <%= @patient.name %></h1>
+
+
+<form method="POST" action="/patients">
+    <input type="hidden" name="_method" value="PATCH">
+    <input type="text" name="patient[name]" placeholder="Name" value="<%= @patient.name %>"/>
+    <input type="date" name="patient[dob]" placeholder="Date of birth" value="<%= @patient.dob %>"/>
+    <input type="email" name="patient[email]" placeholder="Email" value="<%= @patient.email %>"/>
+    <input type="submit" />
+</form>

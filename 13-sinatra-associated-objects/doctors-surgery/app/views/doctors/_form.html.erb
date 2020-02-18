@@ -1,0 +1,15 @@
+<% if @doctor.id == nil %>
+<form method="POST" action="/doctors">
+<% else %>
+<form method="POST" action="/doctors/<%= @doctor.id %>">
+    <input type="hidden" name="_method" value="DELETE" />
+    <input type="submit" value="delete this doctor">
+</form>
+<form method="POST" action="/doctors/<%= @doctor.id %>">
+    <input type="hidden" name="_method" value="PATCH" />
+<% end %>
+    <input type="text" name="doctor[name]" placeholder="Name..." value="<%= @doctor.name %>" />
+    <input type="text" name="doctor[specialism]" placeholder="Specialism..."  value="<%= @doctor.specialism %>" />
+    <input type="submit" />
+</form>
+

@@ -1,0 +1,8 @@
+<h1>This is the patient's index page.</h1>
+<p>there are <%= @patients.count %> patients</p>
+
+<ul>
+<% @patients.each do |patient| %>
+    <li><a href="/patients/<%= patient.id %>"><%= patient.name %></a></li>
+<% end %>
+</ul>

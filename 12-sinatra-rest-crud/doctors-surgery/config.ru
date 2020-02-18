@@ -6,9 +6,17 @@ if ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending. Run `rake db:migrate` to resolve the issue.'
 end
 
-# Rack::MethodOverride
+use Rack::MethodOverride
 
 run ApplicationController
 use AppointmentsController
 use PatientsController
 use DoctorsController
+
+# {
+#   _method: 'patch',
+#   doctor: {
+#     name,
+#     specialism
+#   }
+# }

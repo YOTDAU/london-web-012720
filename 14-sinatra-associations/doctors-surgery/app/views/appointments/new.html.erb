@@ -1,1 +1,25 @@
-<h1>Insert the form to create a new instance of your model.</h1>
+<h1>book an appointment</h1>
+
+<form action="/appointments" method="POST">
+    <input type="date" name="appointment[date]" />
+    <input type="time" name="appointment[time]" />
+
+    <% if @doctor %>
+    <p>you are booking an appt with <%= @doctor.name %></p>
+    <input type="hidden" name="appointment[doctor_id]" value="<%= @doctor.id %>" />
+    <% else %>
+        <select name="appointment[doctor_id]">
+        <% @doctors.each do |doctor| %>
+            <option value="<%= doctor.id %>"><%= doctor.name %></option>
+        <% end %>
+        </select>
+    <% end %>
+
+
+    <select name="appointment[patient_id]">
+    <% @patients.each do |patient| %>
+        <option value="<%= patient.id %>"><%= patient.name %></option>
+    <% end %>
+    </select>
+    <input type="submit" />
+</form>

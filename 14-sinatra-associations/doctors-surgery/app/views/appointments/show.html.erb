@@ -1,1 +1,9 @@
 <h1>This is the show page for an individual instance of your model.</h1>
+
+an appt with
+
+<p><%= @appointment.doctor.name %></p>
+and
+<p><%= @appointment.patient.name %></p>
+<p><%= @appointment.date.strftime("%d/%m/%Y") %></p>
+<p><%= @appointment.time.strftime("%I:%M") %></p>

@@ -1,3 +1,9 @@
 <h1>Dr. <%= @doctor.name %></h1>
 <p>the specialism of this doctor is <%= @doctor.specialism %></p>
+<p>this doctor has <%= @doctor.appointments.size %> appts</p>
+
+<% @doctor.patients.each do |patient| %>
+<a href="/patients/<%= patient.id %>/edit"><%= patient.name %></a>
+<% end %>
 <a href="/doctors/<%= @doctor.id %>/edit">edit this doctor</a>
+<a href="/appointments/new?doctor_id=<%= @doctor.id %>">book an appt with this doctor</a>

@@ -21,5 +21,19 @@
         <option value="<%= patient.id %>"><%= patient.name %></option>
     <% end %>
     </select>
+
+    <% @symptoms.each do |symptom| %>
+        <label>
+            <%= symptom.name %>
+        <input type="checkbox" name="appointment[symptom_ids][]" value="<%= symptom.id %>"/>
+        </label>
+    <% end %>
+
+    <p> if none of your symptoms are listed here, please fill in this field</p>
+    <input type="text" name="new_symptom_name" />
+    <input type="text" name="appointment[new_symptom_name]" />
+
+    <input type="text" name="appointment[symptoms_attributes][][name]" />
+
     <input type="submit" />
 </form>

@@ -9,6 +9,7 @@ class AppointmentsController < ApplicationController
   # GET: /appointments/new
   get '/appointments/new' do
     @patients = Patient.all
+    @symptoms = Symptom.all
 
     if params[:doctor_id]
       @doctor = Doctor.find(params[:doctor_id])
@@ -22,6 +23,13 @@ class AppointmentsController < ApplicationController
   # POST: /appointments
   post '/appointments' do
     appointment = Appointment.create(params[:appointment])
+
+    unless params[:new_symptom_name].empty?
+      new_symptom = Symptom.create(name: params[:new_symptom_name])
+      AppointmentSymptom.create(appointment: appointment, symptom: new_symptom)
+    end
+
+    # symptom_ids: [3,1]
 
     redirect "/appointments/#{appointment.id}"
   end

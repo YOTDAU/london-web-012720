@@ -1,0 +1,9 @@
+<h1>Species#index</h1>
+<p>Find me in app/views/species/index.html.erb</p>
+
+<% @species.each do |species| %>
+    <a href="/species/<%= species.id %>"><%= species.name %></a>
+    <a href="<%= species_path(species) %>"><%= species.name %></a>
+    <%= link_to species.name, species_path(species) %>
+    <%= link_to species.name, species %>
+<% end %>

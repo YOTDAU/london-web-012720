@@ -1,0 +1,20 @@
+<%= form_for @species do |form| %>
+    <%= form.text_field :name %>
+    <%= form.check_box :rare %>
+    <%= form.text_field :size %>
+    <%= form.submit %>
+<% end %>
+
+<%= form_with model: @species do |form| %>
+    <%= form.text_field :name %>
+    <%= form.check_box :rare %>
+    <%= form.text_field :size %>
+    <%= form.submit %>
+<% end %>
+
+<%= form_with url: species_index_path do |form| %>
+    <%= form.text_field :name %>
+    <%= form.check_box :rare %>
+    <%= form.text_field :size %>
+    <%= form.submit %>
+<% end %>

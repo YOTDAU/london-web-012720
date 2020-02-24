@@ -1,0 +1,4 @@
+<h1><%= @species.name %></h1>
+<p>Is it rare? <%= @species.rare ? "Yes, it's rare." : "No, it's well done." %></p>
+<p>How big is it? <%= @species.size %></p>
+<%= link_to "edit #{@species.name}", edit_species_path(@species) %>

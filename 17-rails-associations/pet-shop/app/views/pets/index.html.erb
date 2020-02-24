@@ -1,0 +1,11 @@
+<% if params[:sort] %>
+    <%= link_to "Default sort order", pets_path %>
+<% else %>
+    <%= link_to "List price order", pets_path(sort: true) %>
+<% end %>
+
+<% @pets.each do |pet| %>
+    <div>
+    <%= link_to pet.name, pet %> is a <%= link_to pet.species.name, pet.species %> and costs <%= pet.list_price %>
+    </div>
+<% end %>

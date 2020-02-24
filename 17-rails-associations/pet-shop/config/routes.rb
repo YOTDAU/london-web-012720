@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  resources :pets
   # get 'species', to: 'species#index', as: 'species_index'
   # get 'species/new', to: 'species#new', as: 'new_species'
   # get 'species/:id', to: 'species#show', as: 'species'

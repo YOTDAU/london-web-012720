@@ -1,0 +1,15 @@
+<%= form_with model: @pet do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.label :age %>
+    <%= f.number_field :age, step: "1" %>
+    <%= f.label :house_trained %>
+    <%= f.check_box :house_trained %>
+    <%= f.label :price %>
+    <%= f.number_field :price, step: "1" %>
+    <%= f.label :species_id %>
+    <%= f.collection_select :species_id, @species, :id, :name  %>
+    <%= f.label :owner_id %>
+    <%= f.collection_select :owner_id, @owners, :id, :name  %>
+    <%= f.submit %>
+<% end %>

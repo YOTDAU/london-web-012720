@@ -7,13 +7,26 @@ class PetsController < ApplicationController
     def new
         @pet = Pet.new
         @species = Species.all
+        @owners = Owner.all
+    end
+
+    def edit
+        @pet = Pet.find(params[:id])
+        @species = Species.all
+        @owners = Owner.all
+    end
+
+    def update
+        pet = Pet.find(params[:id])
+        pet.update(pet_params)
+
+        redirect_to pet
     end
 
     def create
         pet = Pet.create(pet_params)
 
         redirect_to pet
-        # redirect_to pet_path(pet)
     end
 
     def show
@@ -23,6 +36,6 @@ class PetsController < ApplicationController
     private
 
     def pet_params
-        params.require(:pet).permit(:age, :name, :species_id, :house_trained, :price)
+        params.require(:pet).permit(:age, :name, :species_id, :owner_id, :house_trained, :price)
     end
 end

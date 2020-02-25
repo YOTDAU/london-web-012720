@@ -6,6 +6,6 @@
 
 <% @pets.each do |pet| %>
     <div>
-    <%= link_to pet.name, pet %> is a <%= link_to pet.species.name, pet.species %> and costs <%= pet.list_price %>
+    <%= link_to pet.name, pet %> is a <%= link_to pet.species.name, pet.species %> and <%= pet.owner.nil? ? "costs #{pet.list_price}" : "belongs to #{pet.owner.name}" %>
     </div>
 <% end %>

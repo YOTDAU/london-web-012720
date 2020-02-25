@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_24_093812) do
+ActiveRecord::Schema.define(version: 2020_02_24_144946) do
+
+  create_table "owners", force: :cascade do |t|
+    t.string "name"
+    t.boolean "bg_checks_complete"
+    t.integer "animal_capacity"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "pets", force: :cascade do |t|
     t.string "name"
@@ -20,6 +28,8 @@ ActiveRecord::Schema.define(version: 2020_02_24_093812) do
     t.integer "species_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "owner_id"
+    t.index ["owner_id"], name: "index_pets_on_owner_id"
     t.index ["species_id"], name: "index_pets_on_species_id"
   end
 
@@ -31,5 +41,6 @@ ActiveRecord::Schema.define(version: 2020_02_24_093812) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  add_foreign_key "pets", "owners"
   add_foreign_key "pets", "species"
 end

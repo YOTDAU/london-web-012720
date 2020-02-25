@@ -1,3 +1,5 @@
 <%= @pet.name %>
 
-<%= link_to @pet.species.name, @pet.species %>
+<%= link_to @pet.species.name, @pet.species %><% if @pet.owner.nil? %> costs <%= @pet.list_price %><% else %> belongs to <%= link_to @pet.owner.name, @pet.owner %> <% end %>
+
+<%= link_to 'edit', edit_pet_path(@pet) %>

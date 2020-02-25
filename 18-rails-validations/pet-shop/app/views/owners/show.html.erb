@@ -1,0 +1,10 @@
+<h2><%= @owner.name %></h2>
+
+<p>has capacity for <%= @owner.animal_capacity %> pets</p>
+<p>background checks <%= @owner.bg_checks_complete ? "done" : "not done" %></p>
+
+<ul>
+<% @owner.pets.each do |pet| %>
+    <li><%= link_to pet.name, pet %></li>
+<% end %>
+</ul>

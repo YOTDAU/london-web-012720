@@ -16,9 +16,15 @@ class SpeciesController < ApplicationController
   def edit; end
 
   def create
-    species = Species.create(species_params)
-
-    redirect_to species
+    species = Species.new(species_params)
+    
+    if species.valid?
+      species.save
+     redirect_to species
+    else 
+      flash[:errors] = species.errors.full_messages
+      redirect_to new_species_path
+    end
     # redirect_to species_path(species)
   end
 

@@ -19,6 +19,16 @@
     <%= link_to 'all owners', owners_path %>
   </nav>
   <main>
+      <% if flash[:errors] %>
+        <div class="error">
+            <ul>
+                <% flash[:errors].each do |error| %>
+                    <li><%= error %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
     <%= yield %>
   </main>
   </body>

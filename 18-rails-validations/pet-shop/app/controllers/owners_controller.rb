@@ -11,7 +11,12 @@ class OwnersController < ApplicationController
     def create
         owner = Owner.create(owner_params)
 
-        redirect_to owner
+        if owner.valid?
+            redirect_to owner
+        else 
+            flash[:errors] = owner.errors.full_messages
+            redirect_to new_owner_path
+        end
     end
 
     def show

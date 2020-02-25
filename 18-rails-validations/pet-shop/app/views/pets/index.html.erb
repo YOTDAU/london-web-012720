@@ -1,11 +1,14 @@
+<h1>here are all the pets in our shop</h1>
 <% if params[:sort] %>
     <%= link_to "Default sort order", pets_path %>
 <% else %>
     <%= link_to "List price order", pets_path(sort: true) %>
 <% end %>
 
+<ul>
 <% @pets.each do |pet| %>
-    <div>
+    <li>
     <%= link_to pet.name, pet %> is a <%= link_to pet.species.name, pet.species %> and <%= pet.owner.nil? ? "costs #{pet.list_price}" : "belongs to #{pet.owner.name}" %>
-    </div>
+    </li>
 <% end %>
+</ul>

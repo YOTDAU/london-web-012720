@@ -1,9 +1,10 @@
+
 <%= form_with model: @owner do |f| %>
     <%= f.label :name %>
     <%= f.text_field :name %>
     <%= f.label :bg_checks_complete %>
     <%= f.check_box :bg_checks_complete %>
     <%= f.label :animal_capacity %>
-    <%= f.number_field :animal_capacity, step: '1' %>
+    <%= f.number_field :animal_capacity, step: '0.1' %>
     <%= f.submit %>
 <% end %>

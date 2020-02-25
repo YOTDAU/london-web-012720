@@ -19,8 +19,14 @@ class PetsController < ApplicationController
     def update
         pet = Pet.find(params[:id])
         pet.update(pet_params)
+        
+        if pet.valid?
 
-        redirect_to pet
+            redirect_to pet
+        else 
+            flash[:errors] = pet.errors.full_messages
+            redirect_to edit_pet_path pet
+        end
     end
 
     def create

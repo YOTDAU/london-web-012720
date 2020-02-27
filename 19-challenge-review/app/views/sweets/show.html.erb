@@ -1,0 +1,5 @@
+<h2><%= @sweet.name %></h2>
+
+<% @sweet.vendor_sweets.each do |vendor_sweet| %>
+    <%= link_to "#{vendor_sweet.vendor.name} - £#{vendor_sweet.price}", vendor_sweet.vendor %>
+<% end %>

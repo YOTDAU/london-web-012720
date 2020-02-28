@@ -26,26 +26,15 @@ cookies = Cookie.create([
 ])
 
 [
-    'ian',
     'sam',
     'dan',
-    'nico',
     'joe',
     'jo',
-    'sarah',
-    'lucy',
-    'mani',
     'gabe',
     'stu',
-    'sofia',
-    'ben',
-    'wachira',
-    'bhav',
-    'julia',
-    'kaitlyn',
-    'tarryn',
-    'charlie',
-    'igor'
+    'anderson',
+    'charly',
+    'sergio'
 ].each do |name|
     Instructor.create({ name: name, cookie: cookies.sample })
 end

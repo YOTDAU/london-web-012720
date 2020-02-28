@@ -10788,3 +10788,1549 @@ Processing by AnswersController#new as HTML
 Completed 200 OK in 58ms (Views: 48.9ms | ActiveRecord: 2.0ms)
 
 
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 14]]
+  ↳ db/seeds.rb:9
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 15]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 16]]
+  ↳ db/seeds.rb:9
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 17]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 18]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 19]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 20]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 21]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 22]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 23]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 24]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 25]]
+  ↳ db/seeds.rb:9
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mCookie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookies" WHERE "cookies"."id" = ?[0m  [["id", 26]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:9
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 21]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 22]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 23]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 24]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 25]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 26]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 27]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 28]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 29]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 30]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 31]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 32]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.5ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 33]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 34]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 35]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.4ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 36]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 37]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 38]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.4ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 39]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[36mInstructor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "instructors" WHERE "instructors"."id" = ?[0m  [["id", 40]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.4ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "choc chip"], ["created_at", "2020-02-28 10:00:35.883093"], ["updated_at", "2020-02-28 10:00:35.883093"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "white choc chip"], ["created_at", "2020-02-28 10:00:35.886294"], ["updated_at", "2020-02-28 10:00:35.886294"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dark choc chip"], ["created_at", "2020-02-28 10:00:35.889503"], ["updated_at", "2020-02-28 10:00:35.889503"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "triple choc"], ["created_at", "2020-02-28 10:00:35.891599"], ["updated_at", "2020-02-28 10:00:35.891599"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "coconut"], ["created_at", "2020-02-28 10:00:35.893514"], ["updated_at", "2020-02-28 10:00:35.893514"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "vegan"], ["created_at", "2020-02-28 10:00:35.895425"], ["updated_at", "2020-02-28 10:00:35.895425"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.5ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "shortbread"], ["created_at", "2020-02-28 10:00:35.900169"], ["updated_at", "2020-02-28 10:00:35.900169"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "salted caramel"], ["created_at", "2020-02-28 10:00:35.904729"], ["updated_at", "2020-02-28 10:00:35.904729"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.2ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "milkybar wowsomes"], ["created_at", "2020-02-28 10:00:35.906565"], ["updated_at", "2020-02-28 10:00:35.906565"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "oat and raisin"], ["created_at", "2020-02-28 10:00:35.908628"], ["updated_at", "2020-02-28 10:00:35.908628"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "dark chocolate digestive (not a cookie)"], ["created_at", "2020-02-28 10:00:35.910619"], ["updated_at", "2020-02-28 10:00:35.910619"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "pret's dark chocolate salted caramel vegan"], ["created_at", "2020-02-28 10:00:35.912769"], ["updated_at", "2020-02-28 10:00:35.912769"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCookie Create (0.3ms)[0m  [1m[32mINSERT INTO "cookies" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "m&ms"], ["created_at", "2020-02-28 10:00:35.915078"], ["updated_at", "2020-02-28 10:00:35.915078"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sam"], ["cookie_id", 36], ["created_at", "2020-02-28 10:00:35.924674"], ["updated_at", "2020-02-28 10:00:35.924674"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "dan"], ["cookie_id", 33], ["created_at", "2020-02-28 10:00:35.927922"], ["updated_at", "2020-02-28 10:00:35.927922"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "joe"], ["cookie_id", 31], ["created_at", "2020-02-28 10:00:35.930134"], ["updated_at", "2020-02-28 10:00:35.930134"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "jo"], ["cookie_id", 38], ["created_at", "2020-02-28 10:00:35.932192"], ["updated_at", "2020-02-28 10:00:35.932192"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "gabe"], ["cookie_id", 30], ["created_at", "2020-02-28 10:00:35.934755"], ["updated_at", "2020-02-28 10:00:35.934755"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "stu"], ["cookie_id", 31], ["created_at", "2020-02-28 10:00:35.937162"], ["updated_at", "2020-02-28 10:00:35.937162"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "anderson"], ["cookie_id", 32], ["created_at", "2020-02-28 10:00:35.940113"], ["updated_at", "2020-02-28 10:00:35.940113"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.4ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "charly"], ["cookie_id", 32], ["created_at", "2020-02-28 10:00:35.943074"], ["updated_at", "2020-02-28 10:00:35.943074"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mInstructor Create (0.3ms)[0m  [1m[32mINSERT INTO "instructors" ("name", "cookie_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "sergio"], ["cookie_id", 27], ["created_at", "2020-02-28 10:00:35.945812"], ["updated_at", "2020-02-28 10:00:35.945812"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+Started GET "/" for ::1 at 2020-02-28 10:00:48 +0000
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/sbarker/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 273ms (Views: 230.0ms | ActiveRecord: 2.9ms)
+
+
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.7ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.5ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 3]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (1.2ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 4]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.4ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 5]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.8ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 6]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAnswer Destroy (0.7ms)[0m  [1m[31mDELETE FROM "answers" WHERE "answers"."id" = ?[0m  [["id", 7]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-02-28 10:13:54 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.5ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 2]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 1]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 3]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 44ms (Views: 34.2ms | ActiveRecord: 1.4ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 1]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 3]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-02-28 10:14:05 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  Rendered answers/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 28.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:14:46 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QkmQG600gGMzX1S2SCvXJryusULL5VZ1ml8nLCBlUtFioMhVQLZPIqGnTb5y6ufCOOHrEARz9fYeSTghlsh2jQ==", "answer"=>{"instructor_id"=>"48", "user_name"=>"sam", "cookie_id"=>"32"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (0.6ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 48], ["created_at", "2020-02-28 10:14:46.192330"], ["updated_at", "2020-02-28 10:14:46.192330"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/answer.rb:15
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "sam"], ["created_at", "2020-02-28 10:14:46.200996"], ["updated_at", "2020-02-28 10:14:46.200996"]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 9], ["cookie_id", 32], ["created_at", "2020-02-28 10:14:46.215750"], ["updated_at", "2020-02-28 10:14:46.215750"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 43ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:14:46 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.1ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (2.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/answers/new.html.erb:46
+  Rendered answers/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 48ms (Views: 38.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:15:28 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/answers/new.html.erb:46
+  Rendered answers/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:16:24 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zGQNeCVkqWnHUxrmSPhvOfoPry4o7aAMENjFjGVp7ePsjVU2yOZmKFWrA+5yOV/dfkD1fOd7A4+UztqB08TJvw==", "answer"=>{"instructor_id"=>"45", "user_name"=>"sam", "cookie_id"=>"38"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (0.9ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 45], ["created_at", "2020-02-28 10:16:24.645623"], ["updated_at", "2020-02-28 10:16:24.645623"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (1.0ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 10], ["cookie_id", 38], ["created_at", "2020-02-28 10:16:24.662720"], ["updated_at", "2020-02-28 10:16:24.662720"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 28ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:16:24 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/views/answers/new.html.erb:46
+  Rendered answers/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 93ms (Views: 85.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:17:00 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eZnLQM+4oe/BWF8kCvapCw2opEPJYNoaep2loE5iZ4BZcJMOIjpurlOgRiwwN5nvief+EQb2eZn+i7qt+M9D3A==", "answer"=>{"instructor_id"=>"46", "user_name"=>"samm", "cookie_id"=>"37"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (0.8ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 46], ["created_at", "2020-02-28 10:17:00.486578"], ["updated_at", "2020-02-28 10:17:00.486578"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "samm"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/models/answer.rb:15
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "samm"], ["created_at", "2020-02-28 10:17:00.494243"], ["updated_at", "2020-02-28 10:17:00.494243"]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (0.4ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 11], ["cookie_id", 37], ["created_at", "2020-02-28 10:17:00.503846"], ["updated_at", "2020-02-28 10:17:00.503846"], ["user_id", 5]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 28ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:17:00 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 71ms (Views: 65.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:18:43 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (5.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 256ms (Views: 113.1ms | ActiveRecord: 10.4ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:18:47 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rFDcNs4htO+lfneWO0tS/38kXAYvm4u/ym67U+W3fBmMuYR4I6N7rjeGbp4BimIb+2sGVOANKDxOeKReUxpYRQ==", "answer"=>{"instructor_id"=>"46", "user_name"=>"sam", "cookie_id"=>"27"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (0.4ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 46], ["created_at", "2020-02-28 10:18:47.759689"], ["updated_at", "2020-02-28 10:18:47.759689"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (0.6ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 12], ["cookie_id", 27], ["created_at", "2020-02-28 10:18:47.791910"], ["updated_at", "2020-02-28 10:18:47.791910"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 57ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:18:47 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 74ms (Views: 63.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:20:35 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.1ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 55ms (Views: 47.7ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:20:50 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJVYgCY8mbD3zv4Kibel2Y29oeVolsB11izb6aPjXJUVF9zgYSebfZNQZ7e2WAxP64fOmTmCKtLBi6wTH1lc0g==", "answer"=>{"instructor_id"=>"48", "user_name"=>"sam", "cookie_id"=>"32"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mInstructor Load (1.3ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mQuestion Create (0.7ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 48], ["created_at", "2020-02-28 10:20:50.725664"], ["updated_at", "2020-02-28 10:20:50.725664"]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:13
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mAnswer Create (2.0ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 13], ["cookie_id", 32], ["created_at", "2020-02-28 10:20:50.778899"], ["updated_at", "2020-02-28 10:20:50.778899"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 130ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:20:50 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.8ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:6
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:8
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 38995ms (Views: 93.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:21:30 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+Started GET "/answers/new" for ::1 at 2020-02-28 10:22:12 +0000
+  ↳ app/controllers/answers_controller.rb:6
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:8
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+Started GET "/answers/new" for ::1 at 2020-02-28 10:22:12 +0000
+Processing by AnswersController#new as HTML
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:6
+  ↳ app/controllers/answers_controller.rb:6
+  [1m[36mCookie Load (0.6ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:8
+  [1m[36mCookie Load (1.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  ↳ app/controllers/answers_controller.rb:8
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/models/user.rb:7
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (69.0ms)
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (59.5ms)
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (126.9ms)
+Completed 200 OK in 873ms (Views: 233.7ms | ActiveRecord: 5.9ms)
+
+
+Completed 200 OK in 43832ms (Views: 2170.8ms | ActiveRecord: 2.1ms)
+
+
+Completed 200 OK in 2272ms (Views: 473.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:22:53 +0000
+  
+SyntaxError (/Users/sbarker/cohorts/london-web-012720/20-sessions-and-cookies/app/controllers/answers_controller.rb:4: syntax error, unexpected tCONSTANT, expecting ':'
+...er.find(session[:user_id]) User.new
+...                           ^~~~):
+  
+app/controllers/answers_controller.rb:4: syntax error, unexpected tCONSTANT, expecting ':'
+Started GET "/answers/new" for ::1 at 2020-02-28 10:23:05 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.8ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:34
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 239ms (Views: 118.7ms | ActiveRecord: 17.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:25:37 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:38
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 68ms (Views: 56.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:26:20 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:37
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 62ms (Views: 52.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:26:24 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.4ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:37
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 72ms (Views: 61.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:26:29 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:38
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 59ms (Views: 49.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:26:38 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fUMFPJ6ndeboMjf23EAroJIJwZ+rs6AreAbkVfDP56FjGd2yBMvIJEbN6NRYcMQ9Awkay740jgESBjOap7Uxag==", "answer"=>{"instructor_id"=>"49", "user_name"=>"sam"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 49], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (0.6ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 49], ["created_at", "2020-02-28 10:26:38.081037"], ["updated_at", "2020-02-28 10:26:38.081037"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 60ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:26:38 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.9ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:38
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 95ms (Views: 73.5ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:26:42 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AW2u54o50wXr2tpq8yXgLBdvIq854UBAqrc6swWqK20fN3ZpEFVux0UlBUh3FQ+xhm/5+yxmbmrAt+18UtD9pg==", "answer"=>{"instructor_id"=>"49", "user_name"=>"sam", "cookie_id"=>"32"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 49], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (1.8ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 49], ["created_at", "2020-02-28 10:26:42.209165"], ["updated_at", "2020-02-28 10:26:42.209165"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "sam"], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (0.6ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 15], ["cookie_id", 32], ["created_at", "2020-02-28 10:26:42.233046"], ["updated_at", "2020-02-28 10:26:42.233046"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 27], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 43ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:26:42 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:38
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 98ms (Views: 86.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:29:26 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:39
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 166ms (Views: 85.8ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:29:41 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zabB7as2fAeilMotxypmpdMOABi93Ho6miUe6i4+1l3T/BljMVrBxQxrFQ9DGok4Qg7bTKhbVBDwJckleUQAlg==", "answer"=>{"instructor_id"=>"47", "user_id"=>"4", "cookie_id"=>"32"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (1.3ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 47], ["created_at", "2020-02-28 10:29:41.848177"], ["updated_at", "2020-02-28 10:29:41.848177"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (0.7ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 16], ["cookie_id", 32], ["created_at", "2020-02-28 10:29:41.877129"], ["updated_at", "2020-02-28 10:29:41.877129"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 61ms (ActiveRecord: 13.3ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:29:41 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.5ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:39
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 120ms (Views: 107.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:29:48 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"y1iEzs9zYolC9XsgpgXVc9XH8KwRGZChsPy/SDn/PuTVAlxAVR/fS+wKpAIiNTruRMcr+ASevova/GiHboXoLw==", "answer"=>{"instructor_id"=>"41", "user_id"=>"4", "cookie_id"=>"28"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[36mQuestion Create (1.0ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 41], ["created_at", "2020-02-28 10:29:48.558671"], ["updated_at", "2020-02-28 10:29:48.558671"]]
+  ↳ app/controllers/answers_controller.rb:11
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:11
+Unpermitted parameter: :instructor_id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mAnswer Create (1.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 17], ["cookie_id", 28], ["created_at", "2020-02-28 10:29:48.579415"], ["updated_at", "2020-02-28 10:29:48.579415"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 36ms (ActiveRecord: 12.1ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:29:48 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:39
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 103ms (Views: 91.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:36:19 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 144ms (Views: 80.0ms | ActiveRecord: 5.7ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:36:29 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0tsGFrn3fLu70dLgYr9gbZ2dodde979dv9J6omWhsTTMgd6YI5vBeRUuDcLmj4/wDJ16g0twkXfV0q1tMttn/w==", "answer"=>{"instructor_id"=>"41", "user_id"=>"4", "cookie_id"=>"39"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mQuestion Create (0.9ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 41], ["created_at", "2020-02-28 10:36:29.193484"], ["updated_at", "2020-02-28 10:36:29.193484"]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+Unpermitted parameter: :instructor_id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mCookie Load (0.7ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[36mAnswer Create (2.3ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 18], ["cookie_id", 39], ["created_at", "2020-02-28 10:36:29.226234"], ["updated_at", "2020-02-28 10:36:29.226234"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 66ms (ActiveRecord: 12.6ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:36:29 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (1.6ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (1.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 90ms (Views: 79.0ms | ActiveRecord: 4.1ms)
+
+
+Started POST "/answers" for ::1 at 2020-02-28 10:36:32 +0000
+Processing by AnswersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8uCNDTGbMlwyzMHwm9zQdaCFJeMCfwPwJBUJGXT4eGDsulWDq/ePnpwzHtIf7D/oMYX+txf4LdpOFd7WI4Kuqw==", "answer"=>{"instructor_id"=>"48", "user_id"=>"4", "cookie_id"=>"32"}, "commit"=>"Submit guess!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT  "instructors".* FROM "instructors" WHERE "instructors"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[36mQuestion Create (1.2ms)[0m  [1m[32mINSERT INTO "questions" ("instructor_id", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["instructor_id", 48], ["created_at", "2020-02-28 10:36:32.451080"], ["updated_at", "2020-02-28 10:36:32.451080"]]
+  ↳ app/controllers/answers_controller.rb:15
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:15
+Unpermitted parameter: :instructor_id
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/answers_controller.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[36mAnswer Create (0.7ms)[0m  [1m[32mINSERT INTO "answers" ("question_id", "cookie_id", "created_at", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["question_id", 19], ["cookie_id", 32], ["created_at", "2020-02-28 10:36:32.469801"], ["updated_at", "2020-02-28 10:36:32.469801"], ["user_id", 4]]
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/answers_controller.rb:19
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/models/answer.rb:7
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 48ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:36:32 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.1ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 84ms (Views: 71.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:36:37 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 58ms (Views: 49.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:42:56 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 128ms (Views: 74.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:44:40 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:4
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.6ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 142ms (Views: 123.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/logout" for ::1 at 2020-02-28 10:44:48 +0000
+Processing by AnswersController#logout as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `delete' for 4:Integer):
+  
+app/controllers/answers_controller.rb:32:in `logout'
+Started GET "/logout" for ::1 at 2020-02-28 10:45:07 +0000
+Processing by AnswersController#logout as HTML
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:45:07 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.1ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 135ms (Views: 84.4ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:45:18 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.5ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.7ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 184ms (Views: 89.4ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/logout" for ::1 at 2020-02-28 10:45:21 +0000
+Processing by AnswersController#logout as HTML
+Redirected to http://localhost:3000/answers/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:45:21 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.3ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 71ms (Views: 58.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:45:24 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.7ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.1ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.5ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 76ms (Views: 62.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/answers/new" for ::1 at 2020-02-28 10:48:17 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (0.2ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (1.6ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.3ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (2.3ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.2ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (26.1ms)
+Completed 500 Internal Server Error in 406ms (ActiveRecord: 9.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `logged_in?' for #<#<Class:0x00007fca10cc5600>:0x00007fca10cbedf0>
+Did you mean?  logger?):
+    17:       <nav>
+    18:         <div class="container">
+    19:         <div class="float-left"><h3 style="margin-bottom: 0;">Cookie Quiz</h3></div>
+    20:         <% if logged_in? %>
+    21:         <div class="float-right"><h3 style="margin-bottom: 0;"><%= link_to 'logout', logout_path %></h3></div>
+    22:         <% end %>
+    23:         </div>
+  
+app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb__838527611659456783_70252920942040'
+Started GET "/answers/new" for ::1 at 2020-02-28 10:48:39 +0000
+Processing by AnswersController#new as HTML
+  [1m[36mInstructor Load (1.7ms)[0m  [1m[34mSELECT "instructors".* FROM "instructors"[0m
+  ↳ app/controllers/answers_controller.rb:5
+  [1m[36mCookie Load (0.2ms)[0m  [1m[34mSELECT  "cookies".* FROM "cookies" WHERE "cookies"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/answers_controller.rb:7
+  [1m[36mCookie Load (0.4ms)[0m  [1m[34mSELECT "cookies".* FROM "cookies"[0m
+  ↳ app/models/cookie.rb:4
+  Rendering answers/new.html.erb within layouts/application
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/answers/new.html.erb:42
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/models/user.rb:6
+  [1m[36mAnswer Load (0.8ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 5]]
+  ↳ app/models/user.rb:7
+  [1m[36mAnswer Load (0.4ms)[0m  [1m[34mSELECT "answers".* FROM "answers" WHERE "answers"."user_id" = ?[0m  [["user_id", 4]]
+  ↳ app/models/user.rb:7
+  Rendered answers/new.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 161ms (Views: 87.7ms | ActiveRecord: 6.5ms)
+
+

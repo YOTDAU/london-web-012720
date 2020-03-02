@@ -19,13 +19,7 @@
 
     <%= f.hidden_field :instructor_id, value: @instructor.id %>
 
-    <% if @user.id == nil %>
-    <%= f.label :user_name, "Your name" %>
-    <%= f.text_field :user_name %>
-    <% else %>
-    <%= f.hidden_field :user_id, value: @user.id %>
-    <p>You are logged in as <%= @user.name %>.</p>
-    <% end %>
+    <p>You are logged in as <%= @current_user.name %>.</p>
 
     <h4>What is <strong><%= @instructor.name.capitalize %>'s</strong> favourite cookie?</h4>
 
@@ -39,7 +33,7 @@
     </fieldset>
 
 <% end %>
-<% if !User.all.empty? %>
+<% if !User.all.empty? && @current_user.admin %>
 <table>
     <thead>
         <tr>

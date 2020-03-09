@@ -1,0 +1,9 @@
+div {
+  font-size: 100pt;
+}
+.error {
+  color: red;
+}
+#message {
+  border: solid 1px black;
+}

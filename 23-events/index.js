@@ -73,10 +73,30 @@ const handleFormSubmit = event => {
 userForm.addEventListener("submit", handleFormSubmit);
 
 document.addEventListener("scroll", () => {
-  if (
-    document.body.scrollHeight - window.innerHeight - window.screenY ===
-    821
-  ) {
+  if (document.body.scrollHeight - window.innerHeight - window.scrollY === 0) {
     console.log("reached the bottom");
+  }
+});
+
+const keyEl = document.querySelector("#key");
+
+document.addEventListener("keydown", e => {
+  keyEl.innerText = `Key pressed: ${e.key}`;
+});
+
+const mousePosEl = document.querySelector("#mousePos");
+
+document.addEventListener("mousemove", e => {
+  mousePosEl.innerText = `Mouse pos: x: ${e.x} y: ${e.y}`;
+});
+
+document.addEventListener("mouseover", e => {
+  if (e.target.style) {
+    e.target.style.backgroundColor = "pink";
+  }
+});
+document.addEventListener("mouseout", e => {
+  if (e.target.style) {
+    e.target.style.backgroundColor = "";
   }
 });

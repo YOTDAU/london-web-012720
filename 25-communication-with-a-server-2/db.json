@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "JS Tips",
+      "author": "J. Script"
+    },
+    {
+      "id": 2,
+      "title": "Rails in depth",
+      "author": "DHH"
+    },
+    {
+      "id": 3,
+      "title": "Ruby is good",
+      "author": "A ruby dev"
+    }
+  ]
+}

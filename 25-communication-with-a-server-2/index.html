@@ -4,10 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>books</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+      h2 {
+        margin-top: 0;
+        padding-top: 0.5em;
+      }
+      main {
+        margin: auto;
+        max-width: 30em;
+        background: rgb(199, 199, 199);
+        min-height: 100vh;
+        padding: 0 1em;
+      }
+      form {
+        margin-top: 1em;
+      }
+      button,
+      input[type="submit"] {
+        background: blue;
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <h2>books</h2>
-    <ul></ul>
+    <main>
+      <h2>books</h2>
+      <button>get books</button>
+      <form>
+        <label>
+          Title
+          <input name="title" />
+        </label>
+        <label>
+          Author
+          <input name="author" />
+        </label>
+        <input type="submit" />
+      </form>
+      <ul id="books"></ul>
+      <ul id="authors"></ul>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>

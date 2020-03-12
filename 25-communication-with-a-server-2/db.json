@@ -14,6 +14,36 @@
       "id": 3,
       "title": "Ruby is good",
       "author": "A ruby dev"
+    },
+    {
+      "id": 4,
+      "title": "Ruby is bad",
+      "author": "J. Script"
+    },
+    {
+      "title": "ferfer",
+      "author": "ergfer",
+      "id": 5
+    },
+    {
+      "title": "fefe",
+      "author": "feerfew",
+      "id": 7
+    },
+    {
+      "title": "ewfwergf",
+      "author": "gtgetg",
+      "id": 8
+    },
+    {
+      "title": "rgervger",
+      "author": "vreaew",
+      "id": 9
+    },
+    {
+      "title": "sgdrgrd",
+      "author": "rdgdrgs",
+      "id": 10
     }
   ]
 }
